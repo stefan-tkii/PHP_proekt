@@ -79,3 +79,9 @@ label
     cursor: pointer;
     background: #07eeff;
 }
+.error
+{
+    font-style: oblique;
+	color: red;
+}
+
