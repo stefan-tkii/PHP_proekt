@@ -1,0 +1,59 @@
+
+@media  only screen and (min-device-width: 768px) 
+{
+    .form-container {
+      padding: 5%;
+      background: #ffffff;
+      border: 9px solid #f2f2f2;            
+      max-width: 520px;
+      margin: auto;
+    }
+
+}
+
+h1, p 
+{
+  text-align: center;
+}
+
+input, textarea , button
+{
+  width: 100%;
+}    
+textarea
+{
+  height: 200px;
+}
+
+fieldset {
+    overflow: hidden
+  }
+  
+  .some-class {
+    float: left;
+    clear: none;
+  }
+  
+.radiolabel {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 1em 0px 8px;
+    margin-top: -10px;
+    vertical-align: middle;
+  }
+  
+  input[type=radio],
+  input.radio {
+    vertical-align: middle;
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+  }
+
+  .placelabel
+  {
+      font-size: 18px;
+      font-weight: bold;
+  }
+
