@@ -1,0 +1,18 @@
+Filip ti dadov fajl php_repository.sql vo PHPMYADMIN ke mu napres import na ovaj fajl i ke ja dobijas databazata, nemorat toj data folderot da go gibas vaka se pravelo import.
+Razgledaj ja ubo i prouci ja databazata pred da kodiras.
+Trebit da iskoristis card view (barem spored mene taka e najlicno) za da gi prikazis igrite so ke sa pojavat kako rezultat na search poleto. Gledaj vo site strani so ke gi dodavas
+napraj include na navbar.php to e navigaciskoto meni so se pojavuvat vo site strani ko ke si logiran. Mozis da sa logoiras ko obicen user ili ko admin
+Za obicen user preku register napraj akunt.
+Za admin username: admin01 password: admin
+Ko ke si admin imas vo navigaciskoto meni imas kopce entries tamu trebit (ako sakas so card view) prikazi gi site igri so se vneseni od korisnikot i koi cekaat odobruvanje od adminot za da se vnesat vo databazata.
+Korisnikot vnesuva igri preku game entry kopceto.
+Indikacija deka si logiran ko admin e $_SESSION['admin']
+Ko ke napravis prebaruvanje na igri preku to search poleto se prikazvat samo igri koi se odobreni
+Igri koi ne se odobreni se nagojaat vo game tabelata
+Igri koi ne se odobreni se naogjaat vo usergame tabelata
+Ko ke odobrime igra ja brisime od usergame tabelata
+i ja vnesuvame vo game tabelata so istite detali sekako
+gledaj ako mozis i najdi nekoe API na internet za sliki onlajn da cuvame i da probame da gi koristime za igrite
+zvoni ako ti trebit pomos uzivaj lesen e
+Ko ke pravis commit na izvrsenoto napraj folder vo nego klaj 1 podfolder so go sodrzit celiot proekt vlezi vo git bash i vlezi vo folderot i napraj git add na podfolderot so go sodrzit celiot proekt taka komitauvaj
+za da e zgodno odnosno celiot komit da e vo 1 folder a ne nacukano 100 fajloj nadvor izlezeni
